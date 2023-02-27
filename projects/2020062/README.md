@@ -23,3 +23,5 @@ Edpuzzle: p20stab Π2020062 / username: stab2020062
 
 <h1>Παραδοτέο 2ο</h1>
 Για το linux με systemd επελεξα το Archlinux. Κατα την εγκατασταση αντημετοποισα ενα προβλιμα με το grub επιδη το install το εκανα σε uefi και οχι σε απλο efi. Τελικα χριαστικαι να κανω 3 πραγματα. Το προτο ειναι οτι το mount /dev/sda1 /mnt/boot/efi. Το δευτερο ειναι mkfs.fat -F32 /dev/sda1 , mkfs.ext4 /dev/sda2 το boot πρεπει να ειναι fat32 512M formated. Τελος το τριτο ειναι πριν να κανεις grub-install /dev/sda πρεπει να κανεις pacman -S efibootmgr.
+
+<h1>Παραδοτέο 3ο</h1>
